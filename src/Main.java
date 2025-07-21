@@ -59,12 +59,77 @@ public class Main {
 //        head.next.next.next.next.next.next=new ListNode(2);
 //        maxmin.nodesBetweenCriticalPoints(head);
 
-            RemoveNodesFromLinkedList removeNodesFromLinkedList=new RemoveNodesFromLinkedList();
-            ListNode head=new ListNode(5);
-            head.next=new ListNode(2);
-            head.next.next=new ListNode(13);
-            head.next.next.next=new ListNode(3);
-            head.next.next.next.next=new ListNode(8);
-            removeNodesFromLinkedList.removeNodes(head);
+//        RemoveNodesFromLinkedListWithReversing removeNodesFromLinkedList=new RemoveNodesFromLinkedListWithReversing();
+//            ListNode head=new ListNode(5);
+//            head.next=new ListNode(2);
+//            head.next.next=new ListNode(13);
+//            head.next.next.next=new ListNode(3);
+//            head.next.next.next.next=new ListNode(8);
+//              removeNodesFromLinkedList.removeNodes(head);
+//        MaxTwinSumOfLinkedList maxTwinSumOfLinkedList=new MaxTwinSumOfLinkedList();
+//        ListNode head=new ListNode(5);
+//        head.next=new ListNode(4);
+//        head.next.next=new ListNode(2);
+//        head.next.next.next=new ListNode(1);
+//        maxTwinSumOfLinkedList.pairSum(head);
+//
+//        DeleteNodesFRomLinkedListPresentInArray deleteNodesFRomLinkedListPresentInArray=new DeleteNodesFRomLinkedListPresentInArray();
+//        ListNode head=new ListNode(1);
+//        head.next=new ListNode(2);
+//        head.next.next=new ListNode(3);
+//        head.next.next.next=new ListNode(4);
+//        head.next.next.next.next=new ListNode(5);
+//        ListNode head=new ListNode(4);
+//        head.next=new ListNode(4);
+//        head.next.next=new ListNode(5);
+//        head.next.next.next=new ListNode(6);
+//        deleteNodesFRomLinkedListPresentInArray.modifiedList(new int[]{4,9},head);
+
+//        SwappingNodesInALinkedList swappingNodesInALinkedList=new SwappingNodesInALinkedList();
+//        ListNode head=new ListNode(1);
+//        head.next=new ListNode(2);
+//        head.next.next=new ListNode(3);
+//        head.next.next.next=new ListNode(4);
+//        head.next.next.next.next=new ListNode(5);
+//        swappingNodesInALinkedList.swapNodes(head,2);
+
+        MyLinkedList myLinkedList=new MyLinkedList();
+//        myLinkedList.addAtHead(7);
+//        myLinkedList.addAtHead(2);
+//        myLinkedList.addAtHead(1);
+//        myLinkedList.addAtIndex(3,0);
+//        myLinkedList.deleteAtIndex(2);
+//        myLinkedList.addAtHead(4);
+//        myLinkedList.addAtTail(4);
+//        myLinkedList.get(4);
+//        myLinkedList.addAtHead(4);
+//        myLinkedList.addAtIndex(5,0);
+//        myLinkedList.addAtHead(6);
+//        myLinkedList.addAtIndex(0,10);
+//        myLinkedList.addAtIndex(0,20);
+//        myLinkedList.addAtIndex(1,30);
+//        myLinkedList.get(0);
+//        myLinkedList.addAtTail(1);
+//        myLinkedList.get(0);
+//        myLinkedList.deleteAtIndex(0);
+//        myLinkedList.addAtHead(86);
+//        myLinkedList.addAtIndex(1,54);
+//        myLinkedList.addAtIndex(1,14);
+//        myLinkedList.addAtHead(83);
+//        myLinkedList.deleteAtIndex(4);
+//        myLinkedList.addAtIndex(3,18);
+//        myLinkedList.addAtHead(46);
+//        myLinkedList.addAtTail(3);
+//        myLinkedList.addAtHead(76);
+//        myLinkedList.get(5);
+//        myLinkedList.addAtHead(1);
+//        myLinkedList.addAtTail(3);
+//        myLinkedList.addAtIndex(1,2);
+//        myLinkedList.get(1);
+//        myLinkedList.deleteAtIndex(1);
+//        myLinkedList.get(1);
+        myLinkedList.addAtIndex(1,0);
+        myLinkedList.get(0);
+
     }
 }
