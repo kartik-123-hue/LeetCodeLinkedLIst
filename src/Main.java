@@ -1,3 +1,4 @@
+import java.awt.*;
 import java.util.List;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -32,68 +33,68 @@ public class Main {
 //        mergeInLinkedList.mergeInBetween(list1,3,4,list2);
 //
 //        MergerNodesBetweenZeroes mergerNodesBetweenZeroes=new MergerNodesBetweenZeroes();
-//        ListNode head=new ListNode(0);
-//        head.next=new ListNode(3);
-//        head.next.next=new ListNode(1);
-//        head.next.next.next=new ListNode(0);
-//        head.next.next.next.next=new ListNode(4);
-//        head.next.next.next.next.next=new ListNode(5);
-//        head.next.next.next.next.next.next=new ListNode(2);
-//        head.next.next.next.next.next.next.next=new ListNode(0);
-//        head.next=new ListNode(1);
-//        head.next.next=new ListNode(0);
-//        head.next.next.next=new ListNode(3);
-//        head.next.next.next.next=new ListNode(0);
-//        head.next.next.next.next.next=new ListNode(2);
-//        head.next.next.next.next.next.next=new ListNode(2);
-//        head.next.next.next.next.next.next.next=new ListNode(0);
-//        mergerNodesBetweenZeroes.mergeNodes(head);
+//        ListNode l1=new ListNode(0);
+//        l1.next=new ListNode(3);
+//        l1.next.next=new ListNode(1);
+//        l1.next.next.next=new ListNode(0);
+//        l1.next.next.next.next=new ListNode(4);
+//        l1.next.next.next.next.next=new ListNode(5);
+//        l1.next.next.next.next.next.next=new ListNode(2);
+//        l1.next.next.next.next.next.next.next=new ListNode(0);
+//        l1.next=new ListNode(1);
+//        l1.next.next=new ListNode(0);
+//        l1.next.next.next=new ListNode(3);
+//        l1.next.next.next.next=new ListNode(0);
+//        l1.next.next.next.next.next=new ListNode(2);
+//        l1.next.next.next.next.next.next=new ListNode(2);
+//        l1.next.next.next.next.next.next.next=new ListNode(0);
+//        mergerNodesBetweenZeroes.mergeNodes(l1);
 
 //        Maxmin maxmin=new Maxmin();
-//        ListNode head=new ListNode(5);
-//        head.next=new ListNode(3);
-//        head.next.next=new ListNode(1);
-//        head.next.next.next=new ListNode(2);
-//        head.next.next.next.next=new ListNode(5);
-//        head.next.next.next.next.next=new ListNode(1);
-//        head.next.next.next.next.next.next=new ListNode(2);
-//        maxmin.nodesBetweenCriticalPoints(head);
+//        ListNode l1=new ListNode(5);
+//        l1.next=new ListNode(3);
+//        l1.next.next=new ListNode(1);
+//        l1.next.next.next=new ListNode(2);
+//        l1.next.next.next.next=new ListNode(5);
+//        l1.next.next.next.next.next=new ListNode(1);
+//        l1.next.next.next.next.next.next=new ListNode(2);
+//        maxmin.nodesBetweenCriticalPoints(l1);
 
 //        RemoveNodesFromLinkedListWithReversing removeNodesFromLinkedList=new RemoveNodesFromLinkedListWithReversing();
-//            ListNode head=new ListNode(5);
-//            head.next=new ListNode(2);
-//            head.next.next=new ListNode(13);
-//            head.next.next.next=new ListNode(3);
-//            head.next.next.next.next=new ListNode(8);
-//              removeNodesFromLinkedList.removeNodes(head);
+//            ListNode l1=new ListNode(5);
+//            l1.next=new ListNode(2);
+//            l1.next.next=new ListNode(13);
+//            l1.next.next.next=new ListNode(3);
+//            l1.next.next.next.next=new ListNode(8);
+//              removeNodesFromLinkedList.removeNodes(l1);
 //        MaxTwinSumOfLinkedList maxTwinSumOfLinkedList=new MaxTwinSumOfLinkedList();
-//        ListNode head=new ListNode(5);
-//        head.next=new ListNode(4);
-//        head.next.next=new ListNode(2);
-//        head.next.next.next=new ListNode(1);
-//        maxTwinSumOfLinkedList.pairSum(head);
+//        ListNode l1=new ListNode(5);
+//        l1.next=new ListNode(4);
+//        l1.next.next=new ListNode(2);
+//        l1.next.next.next=new ListNode(1);
+//        maxTwinSumOfLinkedList.pairSum(l1);
 //
 //        DeleteNodesFRomLinkedListPresentInArray deleteNodesFRomLinkedListPresentInArray=new DeleteNodesFRomLinkedListPresentInArray();
-//        ListNode head=new ListNode(1);
-//        head.next=new ListNode(2);
-//        head.next.next=new ListNode(3);
-//        head.next.next.next=new ListNode(4);
-//        head.next.next.next.next=new ListNode(5);
-//        ListNode head=new ListNode(4);
-//        head.next=new ListNode(4);
-//        head.next.next=new ListNode(5);
-//        head.next.next.next=new ListNode(6);
-//        deleteNodesFRomLinkedListPresentInArray.modifiedList(new int[]{4,9},head);
+//        ListNode l1=new ListNode(1);
+//        l1.next=new ListNode(2);
+//        l1.next.next=new ListNode(3);
+//        l1.next.next.next=new ListNode(4);
+//        l1.next.next.next.next=new ListNode(5);
+//        ListNode l1=new ListNode(4);
+//        l1.next=new ListNode(4);
+//        l1.next.next=new ListNode(5);
+//        l1.next.next.next=new ListNode(6);
+//        deleteNodesFRomLinkedListPresentInArray.modifiedList(new int[]{4,9},l1);
 
 //        SwappingNodesInALinkedList swappingNodesInALinkedList=new SwappingNodesInALinkedList();
-//        ListNode head=new ListNode(1);
-//        head.next=new ListNode(2);
-//        head.next.next=new ListNode(3);
-//        head.next.next.next=new ListNode(4);
-//        head.next.next.next.next=new ListNode(5);
-//        swappingNodesInALinkedList.swapNodes(head,2);
+//        ListNode l1=new ListNode(1);
+//        l1.next=new ListNode(2);
+//        l1.next.next=new ListNode(3);
+//        l1.next.next.next=new ListNode(4);
+//        l1.next.next.next.next=new ListNode(5);
+//        swappingNodesInALinkedList.swapNodes(l1,2);
 
-        MyLinkedList myLinkedList=new MyLinkedList();
+//        MyLinkedList myLinkedList=new MyLinkedList();
 //        myLinkedList.addAtHead(7);
 //        myLinkedList.addAtHead(2);
 //        myLinkedList.addAtHead(1);
@@ -128,8 +129,35 @@ public class Main {
 //        myLinkedList.get(1);
 //        myLinkedList.deleteAtIndex(1);
 //        myLinkedList.get(1);
-        myLinkedList.addAtIndex(1,0);
-        myLinkedList.get(0);
+//        myLinkedList.addAtIndex(1,0);
+//        myLinkedList.get(0);
 
+        AddTwoNumbers addTwoNumbers=new AddTwoNumbers();
+        ListNode l1=new ListNode(8);
+        l1.next=new ListNode(9);
+        l1.next.next=new ListNode(9);
+//        l1.next.next.next=new ListNode(3);
+
+        ListNode l2=new ListNode(1);
+//        l2.next=new ListNode(9);
+//        l2.next.next=new ListNode(4);
+        ListNode newList=addTwoNumbers.addTwoNumbers(l1,l2);
+        while(newList!=null){
+            System.out.println(newList.val);
+            newList=newList.next;
+        }
+
+//        ListNode head = new ListNode(1);
+//        head.next = new ListNode(2);
+//        head.next.next = new ListNode(3);
+//        head.next.next.next = new ListNode(4);
+//        SwapNodesInPairs swapNodesInPairs = new SwapNodesInPairs();
+//        swapNodesInPairs.swapPairs(head);
+//        SortList sortList=new SortList();
+//        ListNode head=new ListNode(4);
+//        head.next=new ListNode(2);
+//        head.next.next=new ListNode(1);
+//        head.next.next.next=new ListNode(3);
+//        sortList.sortList(head);
     }
 }
