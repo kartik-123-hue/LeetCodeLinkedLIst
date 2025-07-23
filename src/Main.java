@@ -132,20 +132,20 @@ public class Main {
 //        myLinkedList.addAtIndex(1,0);
 //        myLinkedList.get(0);
 
-        AddTwoNumbers addTwoNumbers=new AddTwoNumbers();
-        ListNode l1=new ListNode(8);
-        l1.next=new ListNode(9);
-        l1.next.next=new ListNode(9);
-//        l1.next.next.next=new ListNode(3);
-
-        ListNode l2=new ListNode(1);
-//        l2.next=new ListNode(9);
-//        l2.next.next=new ListNode(4);
-        ListNode newList=addTwoNumbers.addTwoNumbers(l1,l2);
-        while(newList!=null){
-            System.out.println(newList.val);
-            newList=newList.next;
-        }
+//        AddTwoNumbers addTwoNumbers=new AddTwoNumbers();
+//        ListNode l1=new ListNode(8);
+//        l1.next=new ListNode(9);
+//        l1.next.next=new ListNode(9);
+////        l1.next.next.next=new ListNode(3);
+//
+//        ListNode l2=new ListNode(1);
+////        l2.next=new ListNode(9);
+////        l2.next.next=new ListNode(4);
+//        ListNode newList=addTwoNumbers.addTwoNumbers(l1,l2);
+//        while(newList!=null){
+//            System.out.println(newList.val);
+//            newList=newList.next;
+//        }
 
 //        ListNode head = new ListNode(1);
 //        head.next = new ListNode(2);
@@ -159,5 +159,28 @@ public class Main {
 //        head.next.next=new ListNode(1);
 //        head.next.next.next=new ListNode(3);
 //        sortList.sortList(head);
+
+//        InsertionSortList insertionSortList=new InsertionSortList();
+//        ListNode head=new ListNode(4);
+//        head.next=new ListNode(2);
+//        head.next.next=new ListNode(1);
+//        head.next.next.next=new ListNode(3);
+//        insertionSortList.insertionSortList(head);
+
+//        RotateList rotateList=new RotateList();
+//        ListNode head=new ListNode(1);
+//        head.next=new ListNode(2);
+//        head.next.next=new ListNode(3);
+//        head.next.next.next=new ListNode(4);
+//        head.next.next.next.next=new ListNode(5);
+//        rotateList.rotateRight(head,2);
+        PartitionList partitionList=new PartitionList();
+        ListNode head=new ListNode(1);
+        head.next=new ListNode(4);
+        head.next.next=new ListNode(3);
+        head.next.next.next=new ListNode(2);
+        head.next.next.next.next=new ListNode(5);
+        head.next.next.next.next.next=new ListNode(2);
+        partitionList.partition(head,3);
     }
 }
