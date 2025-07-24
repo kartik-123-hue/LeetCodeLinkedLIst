@@ -1,6 +1,3 @@
-import java.awt.*;
-import java.util.List;
-
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
@@ -153,12 +150,19 @@ public class Main {
 //        head.next.next.next = new ListNode(4);
 //        SwapNodesInPairs swapNodesInPairs = new SwapNodesInPairs();
 //        swapNodesInPairs.swapPairs(head);
-//        SortList sortList=new SortList();
+//        SortListUsingArray sortListUsingArray =new SortListUsingArray();
 //        ListNode head=new ListNode(4);
 //        head.next=new ListNode(2);
 //        head.next.next=new ListNode(1);
 //        head.next.next.next=new ListNode(3);
-//        sortList.sortList(head);
+//        sortListUsingArray.sortList(head);
+
+        SortListUsingLinkedList sortListUsingLinkedList =new SortListUsingLinkedList();
+        ListNode head=new ListNode(4);
+        head.next=new ListNode(2);
+        head.next.next=new ListNode(1);
+        head.next.next.next=new ListNode(3);
+        sortListUsingLinkedList.sortList(head);
 
 //        InsertionSortList insertionSortList=new InsertionSortList();
 //        ListNode head=new ListNode(4);
@@ -174,13 +178,13 @@ public class Main {
 //        head.next.next.next=new ListNode(4);
 //        head.next.next.next.next=new ListNode(5);
 //        rotateList.rotateRight(head,2);
-        PartitionList partitionList=new PartitionList();
-        ListNode head=new ListNode(1);
-        head.next=new ListNode(4);
-        head.next.next=new ListNode(3);
-        head.next.next.next=new ListNode(2);
-        head.next.next.next.next=new ListNode(5);
-        head.next.next.next.next.next=new ListNode(2);
-        partitionList.partition(head,3);
+//        PartitionList partitionList=new PartitionList();
+//        ListNode head=new ListNode(1);
+//        head.next=new ListNode(4);
+//        head.next.next=new ListNode(3);
+//        head.next.next.next=new ListNode(2);
+//        head.next.next.next.next=new ListNode(5);
+//        head.next.next.next.next.next=new ListNode(2);
+//        partitionList.partition(head,3);
     }
 }
