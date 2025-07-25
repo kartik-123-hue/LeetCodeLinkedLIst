@@ -157,12 +157,12 @@ public class Main {
 //        head.next.next.next=new ListNode(3);
 //        sortListUsingArray.sortList(head);
 
-        SortListUsingLinkedList sortListUsingLinkedList =new SortListUsingLinkedList();
-        ListNode head=new ListNode(4);
-        head.next=new ListNode(2);
-        head.next.next=new ListNode(1);
-        head.next.next.next=new ListNode(3);
-        sortListUsingLinkedList.sortList(head);
+//        SortListUsingLinkedList sortListUsingLinkedList =new SortListUsingLinkedList();
+//        ListNode head=new ListNode(4);
+//        head.next=new ListNode(2);
+//        head.next.next=new ListNode(1);
+//        head.next.next.next=new ListNode(3);
+//        sortListUsingLinkedList.sortList(head);
 
 //        InsertionSortList insertionSortList=new InsertionSortList();
 //        ListNode head=new ListNode(4);
@@ -186,5 +186,32 @@ public class Main {
 //        head.next.next.next.next=new ListNode(5);
 //        head.next.next.next.next.next=new ListNode(2);
 //        partitionList.partition(head,3);
+
+//        BrowserHistory desginBrowserHistory=new BrowserHistory("leetcode.com");
+//        desginBrowserHistory.visit("google.com");
+//        desginBrowserHistory.visit("facebook.com");
+//        desginBrowserHistory.visit("youtube.com");
+//        System.out.println(desginBrowserHistory.back(1));
+//        System.out.println(desginBrowserHistory.back(1));
+//        System.out.println(desginBrowserHistory.forward(1));
+//        desginBrowserHistory.visit("linkedin.com");
+//        System.out.println(desginBrowserHistory.forward(2));
+//        System.out.println(desginBrowserHistory.back(2));
+//        System.out.println(desginBrowserHistory.back(7));
+//        desginBrowserHistory.visit("knit.com");
+
+            SplitIntoParts splitIntoParts=new SplitIntoParts();
+            ListNode head=new ListNode(1);
+            head.next=new ListNode(2);
+            head.next.next=new ListNode(3);
+            head.next.next.next=new ListNode(4);
+            head.next.next.next.next=new ListNode(5);
+            head.next.next.next.next.next=new ListNode(6);
+            head.next.next.next.next.next.next=new ListNode(7);
+            head.next.next.next.next.next.next.next=new ListNode(8);
+            head.next.next.next.next.next.next.next.next=new ListNode(9);
+            head.next.next.next.next.next.next.next.next.next=new ListNode(10);
+            splitIntoParts.splitListToParts(head,3);
+
     }
 }
