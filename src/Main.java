@@ -1,7 +1,10 @@
+import java.util.Scanner;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
+        
 //        SolutionForInterSectionOfList solutionForInterSectionOfList=new SolutionForInterSectionOfList();
 //        SolutionForInterSectionOfListWithPointer solutionForInterSectionOfListWithPointer=new SolutionForInterSectionOfListWithPointer();
 //        ListNode headA=new ListNode(4);
@@ -200,18 +203,28 @@ public class Main {
 //        System.out.println(desginBrowserHistory.back(7));
 //        desginBrowserHistory.visit("knit.com");
 
-            SplitIntoParts splitIntoParts=new SplitIntoParts();
-            ListNode head=new ListNode(1);
-            head.next=new ListNode(2);
-            head.next.next=new ListNode(3);
-            head.next.next.next=new ListNode(4);
-            head.next.next.next.next=new ListNode(5);
-            head.next.next.next.next.next=new ListNode(6);
-            head.next.next.next.next.next.next=new ListNode(7);
-            head.next.next.next.next.next.next.next=new ListNode(8);
-            head.next.next.next.next.next.next.next.next=new ListNode(9);
-            head.next.next.next.next.next.next.next.next.next=new ListNode(10);
-            splitIntoParts.splitListToParts(head,3);
-
+//            SplitIntoParts splitIntoParts=new SplitIntoParts();
+//            ListNode head=new ListNode(1);
+//            head.next=new ListNode(2);
+//            head.next.next=new ListNode(3);
+//            head.next.next.next=new ListNode(4);
+//            head.next.next.next.next=new ListNode(5);
+//            head.next.next.next.next.next=new ListNode(6);
+//            head.next.next.next.next.next.next=new ListNode(7);
+//            head.next.next.next.next.next.next.next=new ListNode(8);
+//            head.next.next.next.next.next.next.next.next=new ListNode(9);
+//            head.next.next.next.next.next.next.next.next.next=new ListNode(10);
+//            splitIntoParts.splitListToParts(head,3);
+        LFUCache lfuCache=new LFUCache(2);
+        lfuCache.put(1,1);
+        lfuCache.put(2,2);
+        System.out.println(lfuCache.get(1));
+        lfuCache.put(3,3);
+        System.out.println(lfuCache.get(2));
+        System.out.println(lfuCache.get(3));
+        lfuCache.put(4,4);
+        System.out.println(lfuCache.get(1));
+        System.out.println(lfuCache.get(3));
+        System.out.println(lfuCache.get(4));
     }
 }
