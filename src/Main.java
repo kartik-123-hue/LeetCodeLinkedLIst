@@ -215,16 +215,31 @@ public class Main {
 //            head.next.next.next.next.next.next.next.next=new ListNode(9);
 //            head.next.next.next.next.next.next.next.next.next=new ListNode(10);
 //            splitIntoParts.splitListToParts(head,3);
-        LFUCache lfuCache=new LFUCache(2);
-        lfuCache.put(1,1);
-        lfuCache.put(2,2);
-        System.out.println(lfuCache.get(1));
-        lfuCache.put(3,3);
-        System.out.println(lfuCache.get(2));
-        System.out.println(lfuCache.get(3));
-        lfuCache.put(4,4);
-        System.out.println(lfuCache.get(1));
-        System.out.println(lfuCache.get(3));
-        System.out.println(lfuCache.get(4));
+//        LFUCache lfuCache=new LFUCache(2);
+//        lfuCache.put(1,1);
+//        lfuCache.put(2,2);
+//        System.out.println(lfuCache.get(1));
+//        lfuCache.put(3,3);
+//        System.out.println(lfuCache.get(2));
+//        System.out.println(lfuCache.get(3));
+//        lfuCache.put(4,4);
+//        System.out.println(lfuCache.get(1));
+//        System.out.println(lfuCache.get(3));
+//        System.out.println(lfuCache.get(4));
+
+            ListNode list1=new ListNode(1);
+            list1.next=new ListNode(4);
+            list1.next.next=new ListNode(5);
+            ListNode list2=new ListNode(1);
+            list2.next=new ListNode(3);
+            list2.next.next=new ListNode(4);
+            ListNode list3=new ListNode(2);
+            list3.next=new ListNode(6);
+            ListNode[] list=new ListNode[3];
+            list[0]=list1;
+            list[1]=list2;
+            list[2]=list3;
+            MergeKSortedList mergeKSortedList=new MergeKSortedList();
+            mergeKSortedList.mergeKLists(list);
     }
 }
